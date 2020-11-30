@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VBM2Q9G9BH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VBM2Q9G9BH");
+    </script>
+    <title>
+      Are Learned Perception-Based Controllers Bound by the Limits of Robust
+      Control?
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body id="top">
+    <!-- Main -->
+    <div
+      id="main"
+      style="
+        padding-bottom: 1em;
+        padding-top: 5em;
+        width: 60em;
+        max-width: 70em;
+        margin-left: auto;
+        margin-right: auto;
+      "
+    >
+      <section id="four">
+        <h1 style="text-align: center; margin-bottom: 2">
+          <font color="4e79a7"
+            >Are Learned Perception-Based Controllers Bound by the Limits of
+            Robust Control?</font
+          >
+        </h1>
+
+        <span
+          class="image right"
+          style="
+            max-width: 40%;
+            margin-top: 0.5em;
+            margin-bottom: 0;
+            border: 2px solid #415161;
+          "
+        >
+          <img src="images/pybullet.png" alt="" />
+        </span>
+
+        <p>
+          The difficulty of optimal control problems has classically been
+          characterized in terms of system properties such as minimum
+          eigenvalues of controllability/observability gramians. We revisit
+          these characterizations in the context of the increasing popularity of
+          data-driven techniques like reinforcement learning (RL) in control
+          settings where input observations are high-dimensional images and
+          transition dynamics are not known beforehand. Specifically, we ask: to
+          what extent are quantifiable control and perceptual difficulty metrics
+          of a control task predictive of the performance of various families of
+          data-driven controllers? We modulate two different types of partial
+          observability in a cartpole "stick-balancing" problem -- the height of
+          one visible fixation point on the cartpole, which can be used to tune
+          fundamental limits of performance achievable by any controller, and by
+          using depth or RGB image observations of the scene, we add different
+          levels of perception noise without affecting system dynamics. In these
+          settings, we empirically study two popular families of controllers: RL
+          and system identification-based $H_\infty$ control, using visually
+          estimated system state. Our results show the fundamental limits of
+          robust control have corresponding implications for the
+          sample-efficiency and performance of learned perception-based
+          controllers.
+        </p>
+
+        <hr />
+
+        <h3>Paper</h3>
+
+        <!-- <hr/> -->
+        <p style="margin-bottom: 1em">Latest version: <a href="#">arXiv</a></p>
+
+        <div class="12u$">
+          <a href="#"
+            ><span
+              class="image fit"
+              style="border: 1px solid; border-color: #888888"
+              ><img src="images/paper-thumbnail.png" alt="" /></span
+          ></a>
+        </div>
+
+        <!-- <p style="margin-bottom: 1em;">CAD Models for the 3D printed parts can be found: <a href="CAD_gripper.zip">here</a></p> -->
+        <hr style="margin-top: 0em" />
+        <h3>Code</h3>
+        <!-- <hr/> -->
+        <p style="margin-bottom: 1em">
+          Code and instructions:
+          <a href="#">Github</a>
+        </p>
+        <hr style="margin-top: 0em" />
+        <h3>Bibtex</h3>
+        <pre><code>@inproceedings{xu2020noisyp,
+	title={Are Learned Perception-Based Controllers Bound by the Limits of Robust Control?},
+	author={Xu, Jingxi and Lee, Bruce and Matni, Nicolai and Jayaraman, Dinesh },
+	booktitle={ Learning for Dynamics and Control (L4DC)},
+	year={2020}
+}</code></pre>
+
+        <!-- <hr />
+        <iframe
+          width="100%"
+          height="600"
+          src="https://www.youtube-nocookie.com/embed/GNos793PFG4?controls=1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        >
+        </iframe> -->
+
+        <hr />
+        <h3>Team</h3>
+
+        <section>
+          <div class="box alt" style="margin-bottom: 1em">
+            <div class="row 50% uniform" style="width: 90%">
+              <div
+                class="2u"
+                style="font-size: 0.7em; line-height: 1.5em; text-align: center"
+              >
+                <a href="https://jxu.ai">
+                  <span class="image fit" style="margin-bottom: 0.5em">
+                    <img
+                      src="images/jingxi-thumbnail.jpg"
+                      alt=""
+                      style="border-radius: 50%" /></span
+                  >Jingxi Xu <sup>1</sup></a
+                >
+              </div>
+
+              <div
+                class="2u"
+                style="font-size: 0.7em; line-height: 1.5em; text-align: center"
+              >
+                <a href="https://brucedlee.github.io/"
+                  ><span class="image fit" style="margin-bottom: 0.5em"
+                    ><img
+                      src="images/bruce-thumbnail.jpg"
+                      alt=""
+                      style="border-radius: 50%" /></span
+                  >Bruce Lee <sup>2</sup></a
+                >
+              </div>
+
+              <div
+                class="2u"
+                style="font-size: 0.7em; line-height: 1.5em; text-align: center"
+              >
+                <a href="https://nikolaimatni.github.io/"
+                  ><span class="image fit" style="margin-bottom: 0.5em"
+                    ><img
+                      src="images/nik-thumbnail.jpg"
+                      alt=""
+                      style="border-radius: 50%" /></span
+                  >Nicolai Matni<sup>2</sup></a
+                >
+              </div>
+
+              <div
+                class="2u"
+                style="font-size: 0.7em; line-height: 1.5em; text-align: center"
+              >
+                <a href="https://www.seas.upenn.edu/~dineshj/"
+                  ><span class="image fit" style="margin-bottom: 0.5em"
+                    ><img
+                      src="images/dinesh-thumbnail.jpg"
+                      alt=""
+                      style="border-radius: 50%" /></span
+                  >Dinesh Jayaraman <sup>2</sup></a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <sup>1</sup> Columbia
+        University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>University
+        of Pennsylvania <hr / style="margin-top: 1em">
+        <h3>Acknowledgements</h3>
+        <p>We would like to thank Blabla.</p>
+
+        <hr / style="margin-top: 1em">
+        <h3>Contact</h3>
+        <p>
+          If you have any questions, please feel free to contact
+          <a href="mailto: jxu@cs.columbia.edu">Jingxi Xu</a>
+        </p>
+        <hr />
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
